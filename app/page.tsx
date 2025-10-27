@@ -610,7 +610,7 @@ export default function LandingPage() {
               <div className="mb-12 flex justify-center">
                 <div className="relative w-full">
                   <Image
-                    src="/quebre-o-ciclo-final-banner.png"
+                    src="/quebre-o-ciclo-final-banner-v2.png"
                     alt="Libere-se dos padrões que te prendem - Quebre o Ciclo"
                     width={1600}
                     height={900}
