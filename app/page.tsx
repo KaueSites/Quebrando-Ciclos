@@ -40,7 +40,7 @@ export default function LandingPage() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const checkoutLink = "https://example.com/checkout"
+  const checkoutLink = "https://quebrando-ciclos.shop"
 
   const chapters = [
     {
