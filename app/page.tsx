@@ -40,7 +40,7 @@ export default function LandingPage() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const checkoutLink = "checkout.quebrando-ciclos.shop/VCCL1O8SCEPP"
+  const checkoutLink = "https://checkout.quebrando-ciclos.shop/VCCL1O8SCEPP"
 
   const chapters = [
     {
@@ -265,7 +265,7 @@ export default function LandingPage() {
                     className="h-16 px-10 text-lg shadow-2xl transition-all hover:scale-105 hover:shadow-primary/50"
                     id="comprar"
                   >
-                    <a href={checkout.quebrando-ciclos.shop/VCCL1O8SCEPP} className="flex items-center gap-2">
+                    <a href={checkoutLink} className="flex items-center gap-2">
                       Garantir Minha Vaga
                       <ArrowRight className="h-5 w-5" />
                     </a>
@@ -641,7 +641,7 @@ export default function LandingPage() {
                     size="lg"
                     className="h-16 px-10 text-xl shadow-2xl transition-all hover:scale-105 hover:shadow-primary/50"
                   >
-                    <a href={checkout.quebrando-ciclos.shop/VCCL1O8SCEPPnk} className="flex items-center gap-2">
+                    <a href={checkoutLink} className="flex items-center gap-2">
                       Comprar Agora por R$ 29,99
                       <ArrowRight className="h-6 w-6" />
                     </a>
@@ -703,7 +703,7 @@ export default function LandingPage() {
           size="lg"
           className="h-16 px-6 shadow-2xl transition-all hover:scale-110 hover:shadow-primary/50 animate-pulse"
         >
-          <a href={checkout.quebrando-ciclos.shop/VCCL1O8SCEPP} className="flex items-center gap-3">
+          <a href={checkoutLink} className="flex items-center gap-3">
             <div className="flex flex-col items-start">
               <span className="text-sm font-semibold">Quebre o ciclo</span>
               <span className="text-xs opacity-90">por apenas R$ 29,99</span>
